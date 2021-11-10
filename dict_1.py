@@ -5,8 +5,9 @@ singger['구성원 수'] = '9'
 singger['데뷔'] = '서바이벌 식스틴'
 singger['대표곡'] = 'SIGNAL'
 
-for k in singger .keys():
-    print('%s --> %s' % (k,singger[k]))
-    
+for k in singer.keys():
+    print(f"{k} --> {singer[k]}")
+    print(singer.keys())
+
 
     
